@@ -35,3 +35,9 @@ imshow(window_name,  image)
 
 The `imshow` is designed to be used along with the `waitKey(0)` and `destroyAllWindows` or `destroyWindow()` function.
 If 0 is passed, the program waits indefinitely for a keystroke.
+## Write an Image
+```
+imwrite(filename, image)
+```
+`filename` is a filename, which must include the filename extension(png, jpg).
+`image` is the image you want to save.The function returns True if the image is saved successfully.
