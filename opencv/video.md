@@ -100,7 +100,7 @@ while(vid_capture.isOpened()):
            # Write the frame to the output files
            output.write(frame)
     else:
-         print(‘Stream disconnected’)
+         print('Stream disconnected')
            break
 vid_capture.release()
 output.release()

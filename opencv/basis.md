@@ -1,4 +1,3 @@
-
 # Here is the example
 
 ```python
